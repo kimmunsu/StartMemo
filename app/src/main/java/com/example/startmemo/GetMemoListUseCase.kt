@@ -1,5 +1,9 @@
 package com.example.startmemo
 
-class GetMemoListUseCase {
-    
+class GetMemoListUseCase(
+    private val memoRepository: MemoRepository
+) {
+    operator fun invoke(): List<Memo> {
+        TODO("not implemented")
+    }
 }
