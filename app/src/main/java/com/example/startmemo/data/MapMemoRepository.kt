@@ -1,6 +1,7 @@
-package com.example.startmemo
+package com.example.startmemo.data
 
-import java.util.concurrent.atomic.AtomicInteger
+import com.example.startmemo.domain.Memo
+import com.example.startmemo.domain.MemoRepository
 import java.util.concurrent.atomic.AtomicLong
 
 class MapMemoRepository : MemoRepository {

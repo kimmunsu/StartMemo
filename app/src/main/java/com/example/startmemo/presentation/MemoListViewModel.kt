@@ -1,7 +1,9 @@
-package com.example.startmemo
+package com.example.startmemo.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.example.startmemo.domain.GetMemoListUseCase
+import com.example.startmemo.domain.Memo
 
 class MemoListViewModel(
     private val getMemoList: GetMemoListUseCase

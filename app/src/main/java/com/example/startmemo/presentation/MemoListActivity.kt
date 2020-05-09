@@ -1,7 +1,8 @@
-package com.example.startmemo
+package com.example.startmemo.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.startmemo.R
 
 class MemoListActivity : AppCompatActivity() {
 

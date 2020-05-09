@@ -1,4 +1,6 @@
-package com.example.startmemo
+package com.example.startmemo.domain
+
+import com.example.startmemo.domain.Memo
 
 interface MemoRepository {
 
