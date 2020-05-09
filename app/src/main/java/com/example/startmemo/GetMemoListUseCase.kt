@@ -4,6 +4,6 @@ class GetMemoListUseCase(
     private val memoRepository: MemoRepository
 ) {
     operator fun invoke(): List<Memo> {
-        TODO("not implemented")
+        return memoRepository.getMemoList()
     }
 }
