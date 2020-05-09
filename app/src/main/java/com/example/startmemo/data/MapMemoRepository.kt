@@ -5,8 +5,13 @@ import com.example.startmemo.domain.MemoRepository
 import java.util.concurrent.atomic.AtomicLong
 
 class MapMemoRepository : MemoRepository {
+
+    companion object {
+        const val MEMBER_ID_INIT_VALUE = 1L
+    }
+
     private val map = mutableMapOf<Long, Memo>()
-    private val key = AtomicLong(1L)
+    private val key = AtomicLong(MEMBER_ID_INIT_VALUE)
 
     override fun getMemoList(): List<Memo> {
         return map.values.toList()
