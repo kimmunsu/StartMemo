@@ -1,5 +1,10 @@
 package com.example.startmemo
 
-class MemoRepository {
+interface MemoRepository {
+
+    fun getMemoList(): List<Memo>
+    fun insertMemo(memo: Memo) : Memo
+    fun deleteMemo(id: Long)
+    fun updateMemo(memo: Memo)
     
 }
